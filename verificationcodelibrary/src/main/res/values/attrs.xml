@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VerificationCodeView">
+
+        <attr name="box_number" format="integer" /><!--输入框数量-->
+        <attr name="child_h_padding" format="dimension" />
+        <attr name="child_v_padding" format="dimension" />
+        <attr name="child_width" format="dimension" />
+        <attr name="child_height" format="dimension" />
+        <attr name="padding" format="dimension" />
+        <attr name="box_bg_focus" format="reference" /><!--输入框聚焦-->
+        <attr name="box_bg_normal" format="reference" /><!--输入框正常-->
+        <attr name="text_color" format="color" /><!--字体颜色-->
+        <attr name="text_size" format="dimension" /><!--字体大小-->
+        <attr name="inputType"><!--输入框type-->
+            <enum name="phone" value="0" />
+            <enum name="number" value="1" />
+            <enum name="password" value="2" />
+            <enum name="text" value="3" />
+        </attr>
+    </declare-styleable>
+
+
+
+</resources>
