@@ -5,5 +5,7 @@
 2. 设置字体颜色大小；
 3. 显示输入框中光标永远只能设置在数字后面不能设置在前面于是重写了EditText;
 4. 输入完发现中间有输入错误，当从中间输入的时候该方框后面全部置空
+效果图如下：
+![](https://github.com/Yexiangxu/VerificationCodeView/blob/master/didi.gif)
 
 
